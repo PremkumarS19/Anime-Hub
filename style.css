@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* Background Animation */
+/* Background Animation */
+@keyframes anime-bg {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Moving Text Animation */
+@keyframes anime-text {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    /* Start from the left */
+    50% {
+        transform: translateX(50%);
+    }
+
+    /* Move to the middle */
+    100% {
+        transform: translateX(100%);
+    }
+
+    /* Move to the right */
+}
+
+.animated-section {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    /* Adjust as needed */
+    overflow: hidden;
+    /* Prevents animation from affecting outside */
+}
+
+.box-card {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('https://i.postimg.cc/DfWbgWZK/download-1.jpg/');
+    background-size: cover;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.para {
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 50px;
+    color: #E3E6FF;
+}
+
+.button1 {
+    border: 3px solid #E3E6FF;
+    background: transparent;
+    color: #E3E6FF;
+    padding: 8px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.animated-bg {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    background: linear-gradient(45deg, #0f0c29, #302b63, #ff4500, #ffcc70, #a64ac9, #ff0099, #1e90ff);
+    background-size: 400% 400%;
+    animation: anime-bg 8s infinite linear;
+}
+
+.moving-text {
+    position: absolute;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #E3E6FF;
+    font-family: Italic;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    animation: anime-text 5s infinite linear alternate;
+}
+
+.anime-list-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    width: 100%;
+    background-image: url('https://i.postimg.cc/Bbg66Gp4/Anime-React-Animation-Max-Anime-fyp-Demonslayer-Naruto-Anime-Art-Anime-girl-Anime-Tattoos-Aesthetic.gif/');
+    background-size: cover;
+}
+
+.heading1 {
+    color: #E3E6FF;
+    font-family: roboto;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.anime1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('https://i.postimg.cc/sDnnQ6TJ/MPOCASH-Situs-Mpo-Cash-Online-24-Jam.jpg/');
+    width: 90vw;
+    height: 50vh;
+    flex-wrap: wrap;
+    background-size: cover;
+    padding: 15px;
+    margin-top: 13px;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.anime2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('https://i.postimg.cc/c49rpwJH/download-2.jpg/');
+    width: 90vw;
+    height: 50vh;
+    flex-wrap: wrap;
+    background-size: cover;
+    padding: 15px;
+    margin-top: 13px;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.anime3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('https://i.postimg.cc/SxZZwZBP/download-3.jpg/');
+    width: 90vw;
+    height: 50vh;
+    margin-top: 13px;
+    flex-wrap: wrap;
+    background-size: cover;
+    padding: 15px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
+
+.anime4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('https://i.postimg.cc/bJP3nKks/Attack-On-Titan-Wallpaper-Eren-Jaeger-1920x1080.jpg/');
+    width: 90vw;
+    height: 50vh;
+    margin-top: 13px;
+    flex-wrap: wrap;
+    background-size: cover;
+    padding: 15px;
+    border-radius: 10px;
+    color: grey;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.anime5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('https://i.postimg.cc/nhDz5Lw9/download-5.jpg/');
+    width: 90vw;
+    height: 50vh;
+    margin-top: 13px;
+    flex-wrap: wrap;
+    background-size: cover;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+
+.anime6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('https://i.postimg.cc/4yy4149d/download-6.jpg/');
+    width: 90vw;
+    height: 50vh;
+    margin-top: 13px;
+    flex-wrap: wrap;
+    background-size: cover;
+    padding: 15px;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.anime7 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('https://i.postimg.cc/wTxj6V4z/download-4.jpg/');
+    width: 90vw;
+    height: 50vh;
+    margin-top: 13px;
+    flex-wrap: wrap;
+    background-size: cover;
+    padding: 15px;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.anime8 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('https://i.postimg.cc/7LxKJJJp/Kusuriya-no-hitorigoto.jpg/');
+    width: 90vw;
+    height: 50vh;
+    margin-top: 13px;
+    flex-wrap: wrap;
+    background-size: cover;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+
+.anime9 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('https://i.postimg.cc/CLhCNpxq/image.jpg/');
+    width: 90vw;
+    height: 50vh;
+    margin-top: 13px;
+    flex-wrap: wrap;
+    background-size: cover;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+
+.anime10 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('https://i.postimg.cc/Kv8LT707/download-7.jpg/');
+    width: 90vw;
+    height: 50vh;
+    margin-top: 13px;
+    flex-wrap: wrap;
+    background-size: cover;
+    padding: 15px;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.anime-name {
+    color: #9B59B6;
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.button-1 {
+    background: transparent;
+    border: 2px solid #E3E6FF;
+    border-radius: 10px;
+    padding: 20px;
+    width: 15vw;
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #E3E6FF;
+}
+
+.card-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    border: 2px solid #FFF8DC;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.button-2 {
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.animeCard {
+    background: linear-gradient(to bottom, #1E81B0, #F4C542);
+    background-size: cover;
+    height: 100%;
+}
+
+.pic {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+
+    /* For tablets */
+    .pic {
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* For mobile */
+    .pic {
+        max-width: 300px;
+    }
+}
+
+.description {
+    color: #FFF8DC;
+    /* Cornsilk White */
+    font-size: 20px;
+    /* Default size */
+    font-family: 'Poppins', sans-serif;
+    /* Clean, modern font */
+    font-weight: 500;
+    /* Medium weight for readability */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    /* Adds slight shadow for better visibility */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+
+    /* For tablets */
+    .description {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* For mobile */
+    .description {
+        font-size: 16px;
+    }
+}
